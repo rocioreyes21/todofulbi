@@ -1,0 +1,190 @@
+
+/*fondo de pantalla*/
+body {
+    background-image: url(../img/logo.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/*barra de menu*/
+/*menu principal*/
+.menuprincipal {
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    width: 1290px;
+    background-color: black;
+    border: 5px solid darkgreen;
+    height: 130px;
+    position: fixed;
+}
+
+/*menu principal 2*/
+.menuprincipal2 {
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    width: 1290px;
+    background-color: black;
+    border: 5px solid darkgreen;
+    height: 130px;
+
+}
+
+/*logoprincipal*/
+.logoprincipal {
+    height: 115px;
+}
+
+/*titulo*/
+.titulo {
+    color: aliceblue;
+    text-align: center;
+    font-size: 65px;
+   atic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Tac+One&display=swap" rel="stylesheet">
+}
+
+/*barra menu*/
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 16px 16px;
+    text-align: center;
+    font-size: x-large;
+    font-style: oblique;
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Tac+One&display=swap" rel="stylesheet">
+}
+
+/* encabezado*/
+.encabezado {
+    display: flexbox;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    atic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Tac+One&display=swap" rel="stylesheet">
+
+}
+
+/*emcabezado2*/
+.encabezado2 {
+    display: flexbox;
+    color: aliceblue;
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    border: 5px solid darkgreen;
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Tac+One&display=swap" rel="stylesheet">
+}
+
+/*fotoprincipal*/
+.fotoprincipal {
+    width: 1290px;
+    height: 750px;
+}
+
+/* redes/contacto*/
+.contacto {
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 16px 16px;
+    font-size: x-large;
+    font-style: oblique;
+    background-color: black;
+    border: 5px solid darkgreen;
+    height: 150px;
+    width: 1290px;
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Tac+One&display=swap" rel="stylesheet">
+}
+
+.logoface {
+    width: 70px;
+    height: 60px;
+
+
+}
+
+.logoins {
+    width: 70px;
+    height: 60px;
+}
+
+
+.logow {
+    width: 70px;
+    height: 60px;
+}
+
+
+.logomail {
+    width: 70px;
+    height: 60px;
+
+}
+
+/*parrafos*/
+.parrafos {
+    font-size: 15px;
+    background-color: darkgreen;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; color: black;
+}
+
+
+.preguntas {
+    font-size: 25px;
+text-align: center;
+    background-color: darkgreen;
+    border: 5px solid black;
+font-family: Arial, Helvetica, sans-serif; color: black;
+}
+
+/*fotos torneos*/  
+
+.formaclase2
+{
+text-align: center;
+display: table-row;
+}
+
+.clase1{ 
+ 
+    margin: 15px;
+    width: 250px;
+    height: 150px;
+ }
+ .clase2{
+    width: 350px;
+    height: 300px;
+ }
+
+ /*fotos entrenamientos*/
+ .formaclase{
+
+    text-align: center;
+    display: flow-root;
+}
+.clase {
+    margin: 15px;
+      width: 200px;
+      height: 150px;
+  }
+  .mapa1{
+
+    text-align: center;
+    margin-right: 30px;
+    margin-left: 30PX;
+  }
