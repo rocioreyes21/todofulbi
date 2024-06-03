@@ -1,0 +1,11 @@
+@import "./utilidades/variables";
+@import "./utilidades/mixin";
+@import "./utilidades/extend";
+
+@import "./utilidades/global";
+@import "./utilidades/reset";
+
+@import "./compenentes/header ";
+@import "./page/main";
+@import "./compenentes/footer";
+@import"./compenentes/mediaqueries";

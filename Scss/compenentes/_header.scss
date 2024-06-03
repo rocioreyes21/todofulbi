@@ -1,0 +1,52 @@
+.menuprincipal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-image: linear-gradient(to right, black, black, darkgreen, darkgreen, green);
+    border: 5px solid darkgreen;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 0 20px;
+}
+
+@keyframes agranda {
+    0% {
+        transform: scale(0, 0);
+    }
+
+    25% {
+        transform: scale(2, 2);
+    }
+
+    50% {
+        transform: scale(3, 3);
+    }
+
+    75% {
+        transform: scale(2, 2);
+    }
+
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+.logoprincipal {
+    height: 25px;
+    animation-name: agranda;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+
+.titulo {
+    color: aliceblue;
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+}
