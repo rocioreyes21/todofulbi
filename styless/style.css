@@ -12,7 +12,7 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: black;
+    background-image: linear-gradient(to right, black, black, darkgreen, darkgreen, green);
     border: 5px solid darkgreen;
     height: 80px;
     position: fixed;
@@ -23,8 +23,19 @@ body {
     padding: 0 20px;
 }
 
+@keyframes agranda{
+    0% { transform: scale(0,0);}
+    25% { transform: scale(2,2);}
+    50% { transform: scale(3,3);}
+    75% { transform: scale( 2,2);}
+    100% { transform: scale(1,1);}
+}
 .logoprincipal {
-    height: 50px;
+    height: 25px;
+    animation-name: agranda;
+    animation-iteration-count: infinite ;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
 }
 
 .titulo {
@@ -58,9 +69,24 @@ li a {
     text-align: center;
     font-size: 30px;
     margin-top: 25px;
+   transform: skew(-30deg , -5deg);
 }
 
-.fotoprincipal {
+.encabezado2{
+   background-image: linear-gradient( to bottom, black , darkgreen , green );
+    color: beige;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+@keyframes desaparece { 0% { opacity: 0;}
+25% { opacity: 0.25;} 
+50%{ opacity: 0.25;}
+70%{ opacity: 0.5;}
+100%{ opacity: 1;}}
+.fotoprincipal:hover {
+    animation-name: desaparece;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
     width: 100%;
     height: auto;
     display: block;
@@ -68,35 +94,43 @@ li a {
     margin-top: 50px;
 }
 
-.formaclase, .formaclase2 {
+.formaclase,
+.formaclase2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
 }
 
-.formaclase img, .formaclase2 img {
+.formaclase img,
+.formaclase2 img {
     max-width: 100%;
     height: auto;
     flex: 1 1 calc(20% - 20px);
 }
 
-.clase1, .clase {
+.clase1,
+.clase {
     width: 200px;
     height: 150px;
 }
 
+
 .clase2 {
     width: 350px;
     height: 300px;
+  
 }
 
 @media (max-width: 768px) {
-    .formaclase img, .formaclase2 img {
+
+    .formaclase img,
+    .formaclase2 img {
         flex: 1 1 calc(50% - 20px);
     }
 
-    .clase1, .clase {
+    .clase1,
+    .clase {
         width: 150px;
         height: 100px;
     }
@@ -151,21 +185,30 @@ li a {
     padding: 16px;
     font-size: x-large;
     font-style: oblique;
-    background-color: black;
+    background-image: radial-gradient( black , rgb(9, 53, 9) , rgb(0, 0, 0));
     border: 5px solid darkgreen;
 }
 
-.logoface, .logoins {
-    width: 50px;
-    height: 50px;
+.logoface ,
+.logoins  {  ;
+    width: 40px;
+    height: 40px;
     margin-right: 10px;
 }
 
-.logow, .logomail {
-    width: 100px;
+.logow,
+.logomail {
+    width: 50px;
     height: auto;
     margin-right: 10px;
 }
+.logow:hover{ width: 70px;
+height: 70px;
+transition: all 1s; }
+.logomail:hover{ width: 70px;
+    height: 70px;
+    transition: all 1s; }
+    
 
 @media (max-width: 768px) {
     .menuprincipal {
@@ -209,3 +252,5 @@ li a {
         height: 300px;
     }
 }
+
+.rotacion{ transform: rotate(25deg);
