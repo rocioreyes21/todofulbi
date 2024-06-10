@@ -1,0 +1,62 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    font-size: large;
+    font-style: oblique;
+}
+
+@keyframes desaparece { 0% { opacity: 0;}
+25% { opacity: 0.25;} 
+50%{ opacity: 0.25;}
+70%{ opacity: 0.5;}
+100%{ opacity: 1;}}
+.fotoprincipal:hover {
+    animation-name: desaparece;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.formaclase,
+.formaclase2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.formaclase img,
+.formaclase2 img {
+    max-width: 100%;
+    height: auto;
+    flex: 1 1 calc(20% - 20px);
+}
+
+.clase1,
+.clase {
+    width: 200px;
+    height: 150px;
+}
+
+
+.clase2 {
+    width: 350px;
+    height: 300px;
+  
+}
