@@ -190,7 +190,7 @@ li a {
 }
 
 .logoface ,
-.logoins  {  ;
+.logoins  {  
     width: 40px;
     height: 40px;
     margin-right: 10px;
@@ -253,4 +253,4 @@ transition: all 1s; }
     }
 }
 
-.rotacion{ transform: rotate(25deg);
+.rotacion{ transform: rotate(25deg);}
