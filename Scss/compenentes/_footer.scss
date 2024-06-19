@@ -1,3 +1,6 @@
+@include display( grid, center,center)
+
+
 body {background-image: url(../img/logo.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -33,4 +36,5 @@ body {background-image: url(../img/logo.jpeg);
     text-align: center;
     font-size: 24px;
     margin: 0;
+    @extend %titulo; 
 }

@@ -1,0 +1,7 @@
+@mixin display ($display , $aling-items , $justify-content: null )
+{
+    display: $display;
+    align-items: $aling-items;
+    justify-content: $justify-content;
+
+}
